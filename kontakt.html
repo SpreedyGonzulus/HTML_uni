@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Portal sprzedażowy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Strona główna</a></li>
+            <li><a href="wszystkie.html">Oferty</a></li>
+        </ul>
+    </nav>
+    <main class="contact-content">
+        <section>
+            <h2>Informacje kontaktowe</h2>
+            <div class="contact-info">
+                <p>Nazwa firmy: Portal sprzedażowy</p>
+                <p>Adres: ul. Przykładowa 123, 00-000 Warszawa</p>
+                <p>Telefon: +48 123 456 789</p>
+                <p>Email: kontakt@portalsprzedazowy.pl</p>
+            </div>
+            <div class="contact-form">
+                <h2>Napisz do nas</h2>
+                <form action="#" method="POST">
+                    <div>
+                        <label for="name">Imię i nazwisko:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="message">Wiadomość:</label>
+                        <textarea id="message" name="message" rows="4" required></textarea>
+                    </div>
+                    <button type="submit">Wyślij</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Portal sprzedażowy. Wszelkie prawa zastrzeżone.</p>
+    </footer>
+</body>
+</html>
